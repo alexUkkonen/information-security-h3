@@ -1,4 +1,3 @@
-<img width="1019" height="536" alt="image" src="https://github.com/user-attachments/assets/d9075367-7587-48fd-9426-063b3e6d4ea1" /># information-security-h3
 ## install debian
 I dont believe this requiers much of an comment as we did this during class. installing debian is quite straigth forward
 I did however have 1 question, why did we have to install debian in debian? was it a auto update?
@@ -48,3 +47,11 @@ the solution ended up being
     $ cat -- "--spaces in this filename--"
 ```
 <img width="859" height="159" alt="image" src="https://github.com/user-attachments/assets/343e398d-440b-4098-bc71-3f382a5eb925" />
+### Questions
+At the end i was left with only one major question, why did the commands
+```
+    $ cat "spaces in this filename"
+    $ cat "--spaces in this filename--"
+```
+work for others but not for me?
+For context i tried restarting the terminal so i don't have scrteenshots of all my attempts.
