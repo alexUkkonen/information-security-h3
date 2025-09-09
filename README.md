@@ -11,6 +11,8 @@ a) <img width="1141" height="208" alt="image" src="https://github.com/user-attac
 b) <img width="1121" height="361" alt="image" src="https://github.com/user-attachments/assets/0d667d45-ada8-44c3-9611-8b3e3bc27511" />
 c) <img width="1116" height="430" alt="image" src="https://github.com/user-attachments/assets/b256e8b0-98c9-4ba2-b0a2-f25d2f0ba33a" />
 
+In general all i could gather was that by using ssh you saw les than without it. meaning you only saw things with witch ssh can interact
+
 ## over the wire bandit
 * the first couple are pretty easy as all you gave to do is read some wierd files.
 * you acces them in the following way.
