@@ -1,4 +1,4 @@
-# information-security-h3
+<img width="1019" height="536" alt="image" src="https://github.com/user-attachments/assets/d9075367-7587-48fd-9426-063b3e6d4ea1" /># information-security-h3
 ## install debian
 I dont believe this requiers much of an comment as we did this during class. installing debian is quite straigth forward
 I did however have 1 question, why did we have to install debian in debian? was it a auto update?
@@ -20,3 +20,31 @@ c) <img width="1116" height="430" alt="image" src="https://github.com/user-attac
     $ ls
     $ cat filename 
 ```
+where n is the task name.
+* there are tricks for future tasks
+```
+    $ ls
+file name: -
+    $ cat -- -
+```
+the -- marks the end of commands and everything afther it is a parameter
+#### This next one i strugled with
+The task is to open a file named --spaces in this file name--
+I eventually gave up and looked online but noone elses solution worked.
+the most common solution was
+```
+    $ cat "spaces in this filename"
+```
+or
+```
+    $ cat ./spaces\ in\ this\ filename
+```
+but this didn't work for me
+<img width="1019" height="536" alt="image" src="https://github.com/user-attachments/assets/a2368053-a8d5-4833-a016-a1c4093bac88" />
+for context the line before the 2 empty ones had a " at the end but for whatever reason it disapeared
+the solution ended up being 
+
+```
+    $ cat -- "--spaces in this filename--"
+```
+<img width="859" height="159" alt="image" src="https://github.com/user-attachments/assets/343e398d-440b-4098-bc71-3f382a5eb925" />
