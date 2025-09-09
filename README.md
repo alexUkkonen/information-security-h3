@@ -15,3 +15,6 @@ c) <img width="1116" height="430" alt="image" src="https://github.com/user-attac
 ## over the wire bandit
 * the first couple are pretty easy as all you gave to do is read some wierd files.
 * you acces them in the following way.
+    $ sudo ssh banditn@bandit.labs.overthewire.org -p 2220
+    $ ls
+    $ cat filename 
